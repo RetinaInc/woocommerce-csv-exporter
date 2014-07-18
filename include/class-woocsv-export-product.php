@@ -328,7 +328,8 @@ class woocsvExportProduct
 	}
 	
 	public function getVariationChilds () {
-		$variation_ids =  get_posts(array('post_type' => 'product_variation','post_parent'=> $this->ID ,'fields'=>'ids'));
+		/* !1.0.1 added post_per_page-1 */
+		$variation_ids =  get_posts(array('posts_per_page'=>-1,'post_type' => 'product_variation','post_parent'=> $this->ID ,'fields'=>'ids'));
 		
 		foreach ($variation_ids as $variation_id) {
 			$variation = new woocsvExportVariation($variation_id);

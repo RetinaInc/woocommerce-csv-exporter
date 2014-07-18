@@ -117,7 +117,9 @@ class woocsvExport
 		fputcsv($fp, $product->getHeader());
 
 		//get product_ids
-		$product_ids = get_posts(array('post_type'=>'product','fields'=>'ids'));
+		/* !1.0.1 added post_per_page */
+		$product_ids = get_posts(array('posts_per_page'=>-1,'post_type'=>'product','fields'=>'ids'));
+		
 		
 		//loop through posts
 		foreach ($product_ids as $product_id) {

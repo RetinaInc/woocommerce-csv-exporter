@@ -3,7 +3,7 @@
 Plugin Name: woocommerce csv export
 #Plugin URI: http://allaerd.org/
 Description: Export products to CSV
-Version: 1.0.0
+Version: 1.0.1
 Author: Allaerd Mensonides
 License: GPLv2 or later
 Author URI: http://allaerd.org

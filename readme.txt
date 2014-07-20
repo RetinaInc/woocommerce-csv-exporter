@@ -14,7 +14,7 @@ Export woocommerce products
 With this plugin you can export products with ease. Press export and all your published products are put in a CSV. It's compatible with the Woocommerce CSV Importer. Soo now you can make an example product like you want, export it, change it in the CSV and import it again. Or you export all products, change the stock or price and import it again. For now the following product types are supported:
 
 * Variable products
-* Simple Products
+* Simple products
 
 In future releases all product types will be supported. 
 
@@ -41,7 +41,7 @@ if you have issues,use the forum. If you contact me for additional stuff, please
 == Changelog ==
 
 = version 1.0.1 =
-* now downlaods more than 5 products
+* now downloads more than 5 products
 
 = version 1.0.0 =
 * first version, support for simple products and variations

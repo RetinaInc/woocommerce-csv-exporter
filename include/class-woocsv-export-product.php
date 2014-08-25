@@ -60,6 +60,7 @@ class woocsvExportProduct
 		'_virtual'       		=> '',
 		'_visibility'      		=> '',
 		'_weight'       		=> '',
+		'_height'       		=> '',
 		'_width'       			=> '',
 		'product_gallery' 		=> '',
 		'product_gallery_name' 	=> '',

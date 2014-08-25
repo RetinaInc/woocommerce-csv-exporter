@@ -3,7 +3,7 @@ Contributors: Allaerd
 Tags: woocommerce, commerce, e-commerce, ecommerce, inventory, stock, products, import, csv, multiple images, upload, export
 Requires at least: 3.7.0
 Tested up to: 3.9.1
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 Donate link: http://allaerd.org
 License: GPLv2 or later 
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -39,6 +39,9 @@ if you have issues,use the forum. If you contact me for additional stuff, please
 * Just like any other plugin. You can check the [documentation](http://allaerd.org/documentation) if you need help.
 
 == Changelog ==
+
+= version 1.0.2 =
+* added height
 
 = version 1.0.1 =
 * now downloads more than 5 products

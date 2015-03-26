@@ -89,7 +89,6 @@ class woocsvExportProduct
 	
 	public function __construct($id = null) {
 		$this->ID = $id;
-
 		if ($this->ID) {
 			$this->fillHeader();
 			$this->fillProduct();
@@ -106,7 +105,22 @@ class woocsvExportProduct
 				$this->attribute_values['pa_'.$attribute->attribute_name] = '';
 			}
 		}
+		
+		//add customfields to meta
+		$this->customFields();
 	}
+	
+	public function customFields() {
+		// add fields to dropdown
+		$customFields = get_option('woocsv-customfields');
+		if ($customFields) {
+			$customFields = explode(',', $customFields);
+			foreach ($customFields as $key=>$value) {
+				$this->meta[trim($value)] = '';
+			}
+		}
+	}
+	
 	
 	public function fillProduct(){
 
